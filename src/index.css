@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Syne", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-app-bg-dark: #0f0f13;
+  --color-app-panel-dark: #1a1a24;
+  --color-app-text-dark: #e8e8f0;
+  --color-app-text-muted-dark: #a0a0b8;
+  
+  --color-app-bg-light: #f4f4f8;
+  --color-app-panel-light: #ffffff;
+  --color-app-text-light: #111118;
+  --color-app-text-muted-light: #444455;
+  
+  --color-accent-start: #00d4aa;
+  --color-accent-end: #0099ff;
+  --color-accent-solid: #00a88a;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #00d4aa;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0099ff;
+}

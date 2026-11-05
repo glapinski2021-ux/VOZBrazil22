@@ -1,0 +1,8 @@
+{
+  "name": "VozBR - Text-to-Speech & Narração Profissional",
+  "description": "Aplicativo profissional de Text-to-Speech em Português Brasileiro com Gemini TTS, estabilidade vocal e geração de áudio WAV de alta fidelidade.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
